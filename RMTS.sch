@@ -1437,4 +1437,53 @@ Text Label 8200 3450 0    50   ~ 0
 XTAL1
 Text Label 8200 3750 0    50   ~ 0
 XTAL2
+Wire Wire Line
+	5400 3450 5850 3450
+Wire Wire Line
+	5850 3750 5400 3750
+Text Label 5850 3450 2    50   ~ 0
+XTAL1
+Text Label 5850 3750 2    50   ~ 0
+XTAL2
+$Comp
+L Device:Crystal_GND24_Small Y?
+U 1 1 5D4A38E4
+P 5400 3600
+F 0 "Y?" V 5350 3750 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 5400 3750 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5400 3600 50  0001 C CNN
+F 3 "~" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3500 5400 3450
+Wire Wire Line
+	5400 3700 5400 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5D4B952D
+P 5550 3850
+F 0 "#PWR?" H 5550 3600 50  0001 C CNN
+F 1 "GND" H 5555 3677 50  0000 C CNN
+F 2 "" H 5550 3850 50  0001 C CNN
+F 3 "" H 5550 3850 50  0001 C CNN
+	1    5550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3600 5550 3600
+Wire Wire Line
+	5550 3600 5550 3800
+Wire Wire Line
+	5550 3800 5250 3800
+Wire Wire Line
+	5250 3800 5250 3600
+Wire Wire Line
+	5250 3600 5300 3600
+Connection ~ 5550 3800
+Wire Wire Line
+	5550 3800 5550 3850
+Text Notes 5300 4200 0    50   ~ 0
+Backup Crystal
 $EndSCHEMATC
