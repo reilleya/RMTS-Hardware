@@ -1448,7 +1448,7 @@ U 1 1 5D5BC0CE
 P 13950 2250
 F 0 "J?" H 13900 3100 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 13900 3000 50  0000 C CNN
-F 2 "Connectors_Hirose:microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5" H 16000 2950 50  0001 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 16000 2950 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 13950 2350 50  0001 C CNN
 	1    13950 2250
 	1    0    0    -1  
