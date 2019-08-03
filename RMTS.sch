@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mine:MK20DX256VLH7 U2
+L RMTS-rescue:MK20DX256VLH7-Mine U2
 U 1 1 5D344F89
 P 9450 1500
 F 0 "U2" H 9450 1765 50  0000 C CNN
@@ -652,7 +652,7 @@ Wire Wire Line
 	6800 4100 8450 4100
 Connection ~ 6800 4100
 $Comp
-L Mine:ADS1219 U3
+L RMTS-rescue:ADS1219-Mine U3
 U 1 1 5D3AE65D
 P 3650 6800
 F 0 "U3" H 3650 7025 50  0000 C CNN
@@ -886,7 +886,7 @@ F 3 "~" H 2150 7500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Mine:MCP6N11 U4
+L RMTS-rescue:MCP6N11-Mine U4
 U 1 1 5D4392E2
 P 3650 8100
 F 0 "U4" H 3650 8325 50  0000 C CNN
@@ -1041,7 +1041,7 @@ F 3 "" H 4450 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-RF:XBEE JP1
+L RMTS-rescue:XBEE-SparkFun-RF JP1
 U 1 1 5D38660F
 P 9500 7900
 F 0 "JP1" H 9500 8660 45  0000 C CNN
@@ -1289,7 +1289,7 @@ Fire
 Text Label 13250 6400 0    50   ~ 0
 Fire
 $Comp
-L SparkFun-Connectors:MICRO-SD_CARD_SOCKET J7
+L RMTS-rescue:MICRO-SD_CARD_SOCKET-SparkFun-Connectors J7
 U 1 1 5D5F7A1B
 P 13950 2550
 F 0 "J7" H 13950 3316 45  0000 C CNN
@@ -1362,7 +1362,7 @@ F 3 "" H 12250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Connectors:CONN_03 J8
+L RMTS-rescue:CONN_03-SparkFun-Connectors J8
 U 1 1 5D6FAE37
 P 12550 4900
 F 0 "J8" V 12413 5178 45  0000 L CNN
@@ -1385,4 +1385,52 @@ Wire Wire Line
 	12250 5200 12550 5200
 Wire Wire Line
 	12550 5200 12550 5000
+$Comp
+L Device:C C?
+U 1 1 5D457490
+P 7450 3450
+F 0 "C?" V 7300 3300 50  0000 L CNN
+F 1 "12p" V 7300 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 3300 50  0001 C CNN
+F 3 "~" H 7450 3450 50  0001 C CNN
+	1    7450 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D45849D
+P 7450 3750
+F 0 "C?" V 7300 3600 50  0000 L CNN
+F 1 "12p" V 7300 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 3600 50  0001 C CNN
+F 3 "~" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 3750 7700 3750
+Connection ~ 7700 3750
+Wire Wire Line
+	7600 3450 7700 3450
+Connection ~ 7700 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5D46BD2D
+P 7200 3850
+F 0 "#PWR?" H 7200 3600 50  0001 C CNN
+F 1 "GND" H 7205 3677 50  0000 C CNN
+F 2 "" H 7200 3850 50  0001 C CNN
+F 3 "" H 7200 3850 50  0001 C CNN
+	1    7200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3850 7200 3750
+Wire Wire Line
+	7200 3450 7300 3450
+Wire Wire Line
+	7200 3750 7300 3750
+Connection ~ 7200 3750
+Wire Wire Line
+	7200 3750 7200 3450
 $EndSCHEMATC
