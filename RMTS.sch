@@ -1314,7 +1314,7 @@ F 3 "" H 12250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RMTS-rescue:CONN_03-SparkFun-Connectors J8
+L SparkFun-Connectors:CONN_03 J8
 U 1 1 5D6FAE37
 P 12550 4900
 F 0 "J8" V 12413 5178 45  0000 L CNN
