@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:RMTS-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mine:MK20DX256VLH7 U2
+L RMTS-rescue:MK20DX256VLH7-Mine U2
 U 1 1 5D344F89
 P 9450 1500
 F 0 "U2" H 9450 1765 50  0000 C CNN
@@ -641,7 +641,7 @@ Wire Wire Line
 	6800 4100 8450 4100
 Connection ~ 6800 4100
 $Comp
-L Mine:ADS1219 U3
+L RMTS-rescue:ADS1219-Mine U3
 U 1 1 5D3AE65D
 P 3650 6800
 F 0 "U3" H 3650 7025 50  0000 C CNN
@@ -865,7 +865,7 @@ F 3 "~" H 2150 7500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Mine:MCP6N11 U4
+L RMTS-rescue:MCP6N11-Mine U4
 U 1 1 5D4392E2
 P 3650 8100
 F 0 "U4" H 3650 8325 50  0000 C CNN
@@ -1005,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 7400 4450 7400
 $Comp
-L SparkFun-RF:XBEE JP1
+L RMTS-rescue:XBEE-SparkFun-RF JP1
 U 1 1 5D38660F
 P 9500 7900
 F 0 "JP1" H 9500 8660 45  0000 C CNN
@@ -1271,7 +1271,7 @@ F 3 "" H 12250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Connectors:CONN_03 J8
+L RMTS-rescue:CONN_03-SparkFun-Connectors J8
 U 1 1 5D6FAE37
 P 12550 4900
 F 0 "J8" V 12413 5178 45  0000 L CNN
@@ -1346,55 +1346,6 @@ Text Label 8200 3450 0    50   ~ 0
 XTAL1
 Text Label 8200 3750 0    50   ~ 0
 XTAL2
-Wire Wire Line
-	5400 3450 5850 3450
-Wire Wire Line
-	5850 3750 5400 3750
-Text Label 5850 3450 2    50   ~ 0
-XTAL1
-Text Label 5850 3750 2    50   ~ 0
-XTAL2
-$Comp
-L Device:Crystal_GND24_Small Y2
-U 1 1 5D4A38E4
-P 5400 3600
-F 0 "Y2" V 5350 3750 50  0000 L CNN
-F 1 "Crystal_GND24_Small" V 5400 3750 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5400 3600 50  0001 C CNN
-F 3 "~" H 5400 3600 50  0001 C CNN
-	1    5400 3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5400 3500 5400 3450
-Wire Wire Line
-	5400 3700 5400 3750
-$Comp
-L power:GND #PWR0132
-U 1 1 5D4B952D
-P 5550 3850
-F 0 "#PWR0132" H 5550 3600 50  0001 C CNN
-F 1 "GND" H 5555 3677 50  0000 C CNN
-F 2 "" H 5550 3850 50  0001 C CNN
-F 3 "" H 5550 3850 50  0001 C CNN
-	1    5550 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 3600 5550 3600
-Wire Wire Line
-	5550 3600 5550 3800
-Wire Wire Line
-	5550 3800 5250 3800
-Wire Wire Line
-	5250 3800 5250 3600
-Wire Wire Line
-	5250 3600 5300 3600
-Connection ~ 5550 3800
-Wire Wire Line
-	5550 3800 5550 3850
-Text Notes 5300 4200 0    50   ~ 0
-Backup Crystal
 NoConn ~ 13050 1850
 NoConn ~ 13050 2550
 NoConn ~ 13050 2650
@@ -1536,7 +1487,7 @@ NoConn ~ 10200 8200
 NoConn ~ 10200 8300
 NoConn ~ 10200 8400
 $Comp
-L SparkFun-Connectors:CONN_02 J9
+L RMTS-rescue:CONN_02-SparkFun-Connectors J9
 U 1 1 5D4ED64B
 P 13150 5700
 F 0 "J9" H 13108 6110 45  0000 C CNN
@@ -1548,7 +1499,7 @@ F 4 "XXX-00000" H 13108 5931 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Connectors:CONN_02 J10
+L RMTS-rescue:CONN_02-SparkFun-Connectors J10
 U 1 1 5D4EE378
 P 15300 5650
 F 0 "J10" H 15072 5605 45  0000 R CNN
