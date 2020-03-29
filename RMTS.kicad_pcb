@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 160)
+    (drawings 161)
     (tracks 565)
     (zones 0)
     (modules 70)
@@ -3276,6 +3276,7 @@
       (net 10 "Net-(D2-Pad2)") (solder_mask_margin 0.1016))
   )
 
+  (gr_poly (pts (xy 186.563 84.201) (xy 186.563 79.756) (xy 200.66 79.756) (xy 200.66 84.201)) (layer F.SilkS) (width 0.1))
   (gr_poly (pts (xy 189.258816 77.938196) (xy 189.258829 76.375913) (xy 190.754 77.978)) (layer B.SilkS) (width 0.1))
   (gr_poly (pts (xy 183.568457 70.685538) (xy 187.325 74.295) (xy 185.801 74.422) (xy 183.642 72.009)) (layer B.SilkS) (width 0.1))
   (gr_poly (pts (xy 182.626 69.85) (xy 182.626 74.295) (xy 183.515 74.295) (xy 183.515 69.85)) (layer B.SilkS) (width 0.1))
@@ -3419,7 +3420,7 @@
   (gr_text Trigger (at 177.038 63.373 180) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "RMTS\nRev 1.2" (at 166.243 67.437) (layer F.SilkS)
+  (gr_text "RMTS\nRev 1.2" (at 165.608 67.437) (layer F.SilkS)
     (effects (font (size 2.25 2.25) (thickness 0.35)))
   )
   (gr_text Power (at 148.336 86.233) (layer F.SilkS)
