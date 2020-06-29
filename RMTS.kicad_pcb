@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../RMTS Rev 1_2a Gerber/"))
+      (outputdirectory "../RMTS Rev 1_2b Gerber/"))
   )
 
   (net 0 "")
@@ -1163,7 +1163,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5E54D888)
+  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5EF91848)
     (at 203.064 102.743 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
@@ -4187,7 +4187,7 @@
   (segment (start 144.78 81.534) (end 144.78 81.915) (width 0.2) (layer F.Cu) (net 101))
   (segment (start 142.875 79.629) (end 144.78 81.534) (width 0.2) (layer F.Cu) (net 101))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E9D0FB8) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5EF918C6) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4689,7 +4689,7 @@
       )
     )
   )
-  (zone (net 3) (net_name +3V3) (layer F.Cu) (tstamp 5E9D0FB5) (hatch edge 0.508)
+  (zone (net 3) (net_name +3V3) (layer F.Cu) (tstamp 5EF918C3) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
