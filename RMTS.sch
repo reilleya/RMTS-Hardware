@@ -51,56 +51,32 @@ Connection ~ 7350 5200
 Wire Wire Line
 	7350 5200 7350 5350
 $Comp
-L power:GND #PWR0102
-U 1 1 5D34C2E1
-P 950 2000
-F 0 "#PWR0102" H 950 1750 50  0001 C CNN
-F 1 "GND" H 955 1827 50  0000 C CNN
-F 2 "" H 950 2000 50  0001 C CNN
-F 3 "" H 950 2000 50  0001 C CNN
-	1    950  2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  1850 900  2000
-Wire Wire Line
-	900  2000 950  2000
-Wire Wire Line
-	1000 1850 1000 2000
-Wire Wire Line
-	1000 2000 950  2000
-Connection ~ 950  2000
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J2
+L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5D34D6DD
-P 2550 4400
-F 0 "J2" H 2600 4717 50  0000 C CNN
-F 1 "Programmer" H 2600 4626 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical" H 2550 4400 50  0001 C CNN
-F 3 "~" H 2550 4400 50  0001 C CNN
-	1    2550 4400
+P 2550 4500
+F 0 "J2" H 2600 4817 50  0000 C CNN
+F 1 "Programmer" H 2600 4726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 2550 4500 50  0001 C CNN
+F 3 "~" H 2550 4500 50  0001 C CNN
+	1    2550 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5D34E521
-P 2250 4700
-F 0 "#PWR0103" H 2250 4450 50  0001 C CNN
-F 1 "GND" H 2255 4527 50  0000 C CNN
-F 2 "" H 2250 4700 50  0001 C CNN
-F 3 "" H 2250 4700 50  0001 C CNN
-	1    2250 4700
+P 2150 4700
+F 0 "#PWR0103" H 2150 4450 50  0001 C CNN
+F 1 "GND" H 2155 4527 50  0000 C CNN
+F 2 "" H 2150 4700 50  0001 C CNN
+F 3 "" H 2150 4700 50  0001 C CNN
+	1    2150 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 4500 2250 4500
+	2150 4500 2150 4600
+Connection ~ 2150 4600
 Wire Wire Line
-	2250 4500 2250 4600
-Wire Wire Line
-	2350 4600 2250 4600
-Connection ~ 2250 4600
-Wire Wire Line
-	2250 4600 2250 4700
+	2150 4600 2150 4700
 $Comp
 L power:+3.3V #PWR0104
 U 1 1 5D34F4ED
@@ -156,41 +132,9 @@ Text Label 7200 4300 0    50   ~ 0
 PTA2
 Text Label 7200 4500 0    50   ~ 0
 PTA1
-$Comp
-L Device:R_US R1
-U 1 1 5D35782D
-P 1550 1450
-F 0 "R1" V 1345 1450 50  0000 C CNN
-F 1 "33" V 1436 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1590 1440 50  0001 C CNN
-F 3 "~" H 1550 1450 50  0001 C CNN
-F 4 " C17634" V 1550 1450 50  0001 C CNN "LCSC"
-	1    1550 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 5D3590F2
-P 1550 1550
-F 0 "R2" V 1345 1550 50  0000 C CNN
-F 1 "33" V 1436 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1590 1540 50  0001 C CNN
-F 3 "~" H 1550 1550 50  0001 C CNN
-F 4 " C17634" V 1550 1550 50  0001 C CNN "LCSC"
-	1    1550 1550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1300 1450 1400 1450
-Wire Wire Line
-	1300 1550 1400 1550
-Wire Wire Line
-	1700 1450 1900 1450
-Wire Wire Line
-	1700 1550 1900 1550
-Text Label 1900 1450 2    50   ~ 0
+Text Label 2200 4700 0    50   ~ 0
 USBP
-Text Label 1900 1550 2    50   ~ 0
+Text Label 3100 4700 2    50   ~ 0
 USBM
 $Comp
 L Regulator_Switching:ADP2108AUJ-3.3 U1
@@ -215,8 +159,6 @@ F 3 "" H 2800 1650 50  0001 C CNN
 	1    2800 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 1250 1700 1250
 Wire Wire Line
 	2500 1350 2400 1350
 Wire Wire Line
@@ -430,20 +372,6 @@ $EndComp
 Wire Wire Line
 	3900 1250 4100 1250
 Connection ~ 3900 1250
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5D3AA0CC
-P 1200 2000
-F 0 "TP1" H 1258 2118 50  0000 L CNN
-F 1 "GND" H 1258 2027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 1400 2000 50  0001 C CNN
-F 3 "~" H 1400 2000 50  0001 C CNN
-	1    1200 2000
-	1    0    0    -1  
-$EndComp
-Connection ~ 1000 2000
-Wire Wire Line
-	1000 2000 1200 2000
 Wire Wire Line
 	6950 1200 7300 1200
 Connection ~ 7300 1200
@@ -727,13 +655,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 7050 5200 7100
 Connection ~ 5200 7050
-Wire Wire Line
-	1700 1250 1700 1100
-Connection ~ 1700 1250
-Wire Wire Line
-	1700 1100 1900 1100
-Text Label 1900 1100 2    50   ~ 0
-VBUS
 Text Label 5000 7200 2    50   ~ 0
 VBUS
 Wire Wire Line
@@ -1528,44 +1449,6 @@ Wire Wire Line
 	13600 5800 13300 5800
 Wire Wire Line
 	13600 5800 13900 5800
-$Comp
-L Device:R_US R13
-U 1 1 5E3F0EC8
-P 1900 2200
-F 0 "R13" H 1968 2246 50  0000 L CNN
-F 1 "330" H 1968 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1940 2190 50  0001 C CNN
-F 3 "~" H 1900 2200 50  0001 C CNN
-F 4 "C17734" H 1900 2200 50  0001 C CNN "LCSC"
-	1    1900 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0145
-U 1 1 5E3F4010
-P 1900 2350
-F 0 "#PWR0145" H 1900 2100 50  0001 C CNN
-F 1 "GND" H 1905 2177 50  0000 C CNN
-F 2 "" H 1900 2350 50  0001 C CNN
-F 3 "" H 1900 2350 50  0001 C CNN
-	1    1900 2350
-	1    0    0    -1  
-$EndComp
-Text Label 1900 1950 2    50   ~ 0
-VBUS
-Wire Wire Line
-	1900 1950 1900 2050
-$Comp
-L Connector:USB_B_Mini J1
-U 1 1 5E40F3F8
-P 1000 1450
-F 0 "J1" H 1057 1917 50  0000 C CNN
-F 1 "USB_B_Mini" H 1057 1826 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1150 1400 50  0001 C CNN
-F 3 "~" H 1150 1400 50  0001 C CNN
-	1    1000 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11350 5150 12150 5150
 Wire Wire Line
@@ -1867,8 +1750,6 @@ F 4 "XXX-00000" H 11072 4084 60  0000 R CNN "Field4"
 	1    11300 3950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1700 1250 2150 1250
 $Comp
 L Device:R_US R18
 U 1 1 5EC9847F
@@ -2199,4 +2080,36 @@ Wire Wire Line
 	9450 1800 10450 1800
 Text Label 3400 8100 2    50   ~ 0
 VBUS
+Wire Wire Line
+	2200 4700 2350 4700
+Wire Wire Line
+	2150 4600 2350 4600
+Wire Wire Line
+	2150 4500 2350 4500
+Wire Wire Line
+	2850 4700 3100 4700
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 6020386C
+P 1100 1250
+F 0 "J1" V 1064 1062 50  0000 R CNN
+F 1 "Screw_Terminal_01x02" V 973 1062 50  0000 R CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 1100 1250 50  0001 C CNN
+F 3 "~" H 1100 1250 50  0001 C CNN
+	1    1100 1250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1250 2150 1250
+$Comp
+L power:GND #PWR0102
+U 1 1 602149B6
+P 1300 1350
+F 0 "#PWR0102" H 1300 1100 50  0001 C CNN
+F 1 "GND" H 1305 1177 50  0000 C CNN
+F 2 "" H 1300 1350 50  0001 C CNN
+F 3 "" H 1300 1350 50  0001 C CNN
+	1    1300 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
