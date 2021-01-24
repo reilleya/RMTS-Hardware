@@ -2373,4 +2373,32 @@ Wire Wire Line
 Connection ~ 2600 1450
 Wire Wire Line
 	2600 1450 2950 1450
+$Comp
+L Connector:TestPoint TP4
+U 1 1 6012AFDB
+P 4650 10400
+F 0 "TP4" H 4708 10518 50  0000 L CNN
+F 1 "5V" H 4708 10427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4850 10400 50  0001 C CNN
+F 3 "~" H 4850 10400 50  0001 C CNN
+	1    4650 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 10400 4650 10400
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6014B6C1
+P 5450 9500
+F 0 "TP5" H 5508 9618 50  0000 L CNN
+F 1 "5V" H 5508 9527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 5650 9500 50  0001 C CNN
+F 3 "~" H 5650 9500 50  0001 C CNN
+	1    5450 9500
+	1    0    0    -1  
+$EndComp
+Text Label 5150 9500 0    50   ~ 0
+LC0
+Wire Wire Line
+	5450 9500 5150 9500
 $EndSCHEMATC
