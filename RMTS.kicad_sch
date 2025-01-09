@@ -10328,7 +10328,7 @@
 		(at 191.77 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d344f89")
@@ -10367,6 +10367,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C511780"
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -11351,7 +11360,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C176662"
+		(property "LCSC" "C340737"
 			(at 171.45 45.72 0)
 			(effects
 				(font
@@ -12434,7 +12443,7 @@
 		(at 67.31 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3ae65d")
@@ -12473,6 +12482,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.31 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2869313"
 			(at 67.31 205.74 0)
 			(effects
 				(font
@@ -16190,7 +16208,7 @@
 		(at 325.12 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d761e8a")
@@ -16232,6 +16250,15 @@
 		)
 		(property "Description" ""
 			(at 325.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C552950"
+			(at 325.12 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16657,7 +16684,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22113"
+		(property "LCSC" "C189217"
 			(at 342.9 104.14 0)
 			(effects
 				(font
@@ -16770,7 +16797,7 @@
 		(at 71.12 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e561c9a")
@@ -16809,6 +16836,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 71.12 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C636381"
 			(at 71.12 242.57 0)
 			(effects
 				(font
@@ -17342,7 +17378,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22113"
+		(property "LCSC" "C189217"
 			(at 328.93 149.86 0)
 			(effects
 				(font
@@ -20105,7 +20141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2841056"
+		(property "LCSC" "C2871822"
 			(at 54.61 31.75 0)
 			(effects
 				(font

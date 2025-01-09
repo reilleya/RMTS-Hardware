@@ -245,7 +245,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C176662"
+		(property "LCSC" "C340737"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -258,24 +258,11 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "951b11b6-b096-4285-9989-23d28ce5b5d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005d36d303")
 		(sheetname "Root")
 		(sheetfile "RMTS.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -3.625 -1.685)
 			(end -3 -1.685)
@@ -4220,10 +4207,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C511780"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2921b6e-94ff-4039-afa9-f64689125e69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005d344f89")
 		(sheetname "Root")
 		(sheetfile "RMTS.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -5.11 -5.11)
 			(end -5.11 -4.16)
@@ -7848,11 +7848,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C552950"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4aee5776-4f3d-4734-b9d8-5b5e5c8e5715")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d761e8a")
 		(sheetname "Root")
 		(sheetfile "RMTS.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -3.08 1.36)
 			(end 1.9 1.36)
@@ -10240,10 +10253,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C2869313"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2af3b3c-9b37-40eb-9aed-50fccf0c88bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005d3ae65d")
 		(sheetname "Root")
 		(sheetfile "RMTS.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -3.775 -2.8)
 			(end 2.2 -2.8)
@@ -11255,24 +11281,11 @@
 				)
 			)
 		)
-		(property "LCSC" "C22113"
+		(property "LCSC" "C189217"
 			(at 262.57 -51.374 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b83cbfe7-8938-41ab-8f11-fe95c54e55a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "-90"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96238d53-e1cb-4f09-9700-7d45602679eb")
 			(effects
 				(font
 					(size 1 1)
@@ -12225,10 +12238,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C636381"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80c21cc7-ec13-4557-b47e-5fc0d878aa8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005e561c9a")
 		(sheetname "Root")
 		(sheetfile "RMTS.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 1.675 -1.675)
 			(end 1.675 -1.425)
@@ -13537,24 +13563,11 @@
 				)
 			)
 		)
-		(property "LCSC" "C22113"
+		(property "LCSC" "C189217"
 			(at 331.592 149.86 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1a53688-1d4e-4c7b-9d88-187e4ba8f73b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "-90"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb028135-6ddd-4a56-9de3-fd27e720c4ba")
 			(effects
 				(font
 					(size 1 1)
@@ -19288,6 +19301,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2871822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2944da37-7678-4f7d-b033-9679132beb25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-0000604daea5")
 		(sheetname "Root")
 		(sheetfile "RMTS.kicad_sch")
@@ -22862,17 +22888,6 @@
 			(font
 				(size 1.25 1.25)
 				(thickness 0.2)
-			)
-		)
-	)
-	(gr_text "Designed by\nAndrew Reilley"
-		(at 168.2115 108.077 0)
-		(layer "F.SilkS")
-		(uuid "0a494a74-1ec4-4f02-8fb4-9398015da2ba")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.25)
 			)
 		)
 	)
